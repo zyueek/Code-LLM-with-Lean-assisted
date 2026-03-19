@@ -1,0 +1,13 @@
+{
+  "pass@1": 0.42567567567567566,
+  "model": "Qwen--Qwen3-Coder-30B-A3B-Instruct-FP8",
+  "split": "complete",
+  "subset": "hard",
+  "calibrated": true,
+  "gt_pass_rate": 0.9797297297297297,
+  "failed_tasks": [
+    "BigCodeBench/418",
+    "BigCodeBench/417",
+    "BigCodeBench/590"
+  ]
+}

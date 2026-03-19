@@ -1,0 +1,13 @@
+{
+  "pass@1": 0.34459459459459457,
+  "model": "simple_qwen3_hard_complete_v2.jsonl",
+  "split": "complete",
+  "subset": "hard",
+  "calibrated": true,
+  "gt_pass_rate": 0.9797297297297297,
+  "failed_tasks": [
+    "BigCodeBench/418",
+    "BigCodeBench/417",
+    "BigCodeBench/590"
+  ]
+}
