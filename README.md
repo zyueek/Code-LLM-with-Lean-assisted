@@ -17,8 +17,6 @@ This directory artifact link for ASE 2026 submission "LEAP: Lean-Assisted Python
   - Supervised fine-tuning warm-start for the critic. It teaches the prover to emit the exact Stage-2 tag format used at inference time.
 - `lean_gen/rl_training_prover_process.py`
   - GRPO/RL training entry point for the critic. Rewards are based on how much the coder improves after conditioning on the critic output.
-- `lean_gen/configs/rl_prover_grpo_v3_mix_from_v2_gpt52.args`
-  - Canonical config for the v3 critic used by the best runs.
 - `lean_gen/reflexion_feedback_qwen3_bigcodebench.py`
   - BigCodeBench Reflexion baseline used for comparison.
 - `lean_gen/simple_qwen3_bigcodebench.py`
