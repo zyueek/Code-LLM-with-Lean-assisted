@@ -1,22 +1,7 @@
 # ITSSM Artifact Bundle
 
-This directory is a standalone bundle of the files behind the two referenced best-run documents:
+This directory artifact link for ASE 2026 submission "LEAP: Lean-Assisted Python Code Generation"
 
-- `lean_gen/README_ITSSM_BEST_RUN_1771167978.md`
-- `lean_gen/README_BigCodeBench_BEST_RUN_1771347697.md`
-
-The layout intentionally keeps a partial `lean_gen/` tree so the copied scripts still match the paths used in the original repo docs. `vllm_client.py` is placed at the bundle root because the main ITSSM scripts expect it one directory above `lean_gen/`.
-
-## What is included
-
-- `lean_gen/README_ITSSM_BEST_RUN_1771167978.md`
-  - Methodology and exact command for the best LiveCodeBench v6 ITSSM run (`1771167978`).
-- `lean_gen/README_BigCodeBench_BEST_RUN_1771347697.md`
-  - Methodology and exact command for the best BigCodeBench-Hard ITSSM run (`1771347697`).
-- `lean_gen/README_BigCodeBench_ITSSM_BETTER_THAN_BASELINES.md`
-  - Comparison note against Reflexion, one-shot Qwen3, and the SFT-only ablation.
-- `lean_gen/README_BigCodeBench.md`
-  - Baseline evaluation guide for BigCodeBench.
 
 ## Script guide
 
