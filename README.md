@@ -1,4 +1,4 @@
-# ITSSM Artifact Bundle
+# LEAP Artifact Bundle
 
 This directory artifact link for ASE 2026 submission "LEAP: Lean-Assisted Python Code Generation"
 
@@ -45,13 +45,3 @@ This directory artifact link for ASE 2026 submission "LEAP: Lean-Assisted Python
 - `lean_gen/bcb_results_sft_ablation/`
   - BigCodeBench SFT-only critic ablation sample/evaluation files.
 
-## Not bundled
-
-This bundle does not include:
-
-- model weights or PEFT adapter directories such as `rl_prover_critic_v3`
-- the full `bigcodebench/` repo checkout
-- cached benchmark datasets under `~/.cache`
-- API keys or external service credentials
-
-Use the two best-run READMEs first if you need the exact reproduction commands.
