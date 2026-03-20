@@ -1,22 +1,7 @@
 #!/usr/bin/env python3
 """
-RL fine-tuning for DeepSeek Prover in the *ITSSM prover/critic role* (process-aligned).
+RL fine-tuning for DeepSeek Prover in the *prove/critic role* (process-aligned).
 
-Why this script exists
-----------------------
-`train_deepseek_prover_rl.py` trains a prover to emit tags + final code, but in the ITSSM pipeline
-the prover is used as a *critic* that conditions a *coder*:
-
-  Stage 1: coder drafts code
-  Stage 2: prover produces analysis/checklist (NO code)
-  Stage 3: coder revises using prover text
-  Stage 4: optional reflexion feedback + another revision
-
-This script trains the prover with GRPO where the *action* is the Stage-2 critic output:
-
-  <subgoal>...</subgoal>
-  <gap_analysis>...</gap_analysis>
-  <checklist>...</checklist>
 
 Rewards
 -------
