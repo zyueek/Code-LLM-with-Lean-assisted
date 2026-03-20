@@ -1,6 +1,6 @@
-# LEAP Artifact Bundle
+# SCOPE Artifact Bundle
 
-This directory artifact link for ASE 2026 submission "LEAP: Lean-Assisted Python Code Generation"
+This directory artifact link for ASE 2026 submission "SCOPE: Prover-Guided Subgoal Critiques for Code Generation"
 
 
 ## Script guide
