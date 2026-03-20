@@ -27,8 +27,7 @@ This directory artifact link for ASE 2026 submission "SCOPE: Prover-Guided Subgo
   - Supporting simple Qwen3 generator imported by the BigCodeBench one-shot wrapper.
 - `SCOPE/train_deepseek_prover_rl.py`
   - Shared utilities used by dataset generation and RL training, including LiveCodeBench loading and executor helpers.
-- `vllm_client.py`
-  - Shared OpenAI-compatible vLLM client dependency used by the SCOPE scripts.
+
 
 ## Artifact guide
 
